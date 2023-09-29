@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400&family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'PT Sans', sans-serif;
+    
+    
+}
+/* variables */
+:root{
+    /* color */
+    --greyCOLOR: #333;
+    --fontCOLOR: #f0f0f0;
+    --MAINCOLOR: #ff6c00;
+    --whiteCOLOR: #fff;
+    --lightgreyCOLOR: #6D6D6D;
+    --BGCOLOR: #EBEAE8;
+    }
+
+    /* location */
+    #location{
+        padding-top: 106px;
+        width: 100%;
+        height: 60vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #location > .header{
+        margin-bottom: 106px;
+        width: 100%;
+        text-align: center;
+        color: var(--MAINCOLOR);
+        margin-bottom: 32px;
+    }
+    #location > p{
+        width: 500px;
+        height: 127px;
+        flex-shrink: 0;
+        font-size: 20px;
+        color: var(--greyCOLOR);
+        line-height: 159.023%; 
+        letter-spacing: -0.9px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #location > p > .divide > .bold{
+        font-weight: 700;
+    }
+    #location > p > .divide{
+        margin-top: 8px ;
+    }
+    .map{
+        margin-top: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 52%;
+        height: 400px;
+        border-radius: 32px;
+        border: 1px solid var(--border, #FAFAFA);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }

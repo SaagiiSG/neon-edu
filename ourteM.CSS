@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400&family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'PT Sans', sans-serif;
+    
+    
+}
+/* variables */
+:root{
+    /* color */
+    --greyCOLOR: #333;
+    --fontCOLOR: #f0f0f0;
+    --MAINCOLOR: #ff6c00;
+    --whiteCOLOR: #fff;
+    --lightgreyCOLOR: #6D6D6D;
+    --BGCOLOR: #EBEAE8;
+    }
+/* our team */
+#our__team {
+    padding: 106px 0;
+    width: 100%;
+    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:var(--BGCOLOR);
+    
+}
+#our__team > .header{
+    margin-bottom: 106px;
+    width: 100%;
+    text-align: center;
+    color: var(--MAINCOLOR);
+    margin-bottom: 32px;
+}
+.member__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+}
+.member__card{
+    width: 19%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+.member__card > img{
+    width: 192px;
+    height: 192px;
+    border-radius: 200px;    
+    border: 5px solid var(--border, #FAFAFA);
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
