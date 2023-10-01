@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     scroll-behavior: smooth;
     font-family: 'PT Sans', sans-serif;
     
@@ -39,11 +39,14 @@
 .member__container{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between ;
-    flex-wrap: wrap;
+    align-items: center;
+    
 }
 .member__card{
     width: 19%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -53,7 +56,18 @@
 .member__card > img{
     width: 192px;
     height: 192px;
-    border-radius: 200px;    
-    border: 5px solid var(--border, #FAFAFA);
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border: 5px solid var(--whiteCOLOR);
+    border-radius: 200px;
+}
+.top__four{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.bottom__three{
+    margin-top: 19px;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
 }
