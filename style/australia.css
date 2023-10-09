@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400&family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'PT Sans', sans-serif;
+    
+    
+}
+/* variables */
+:root{
+    /* color */
+    --greyCOLOR: #333;
+    --fontCOLOR: #f0f0f0;
+    --MAINCOLOR: #ff6c00;
+    --whiteCOLOR: #fff;
+    --lightgreyCOLOR: #6D6D6D;
+    --BGCOLOR: #EBEAE8;
+    }
+
+/* australia */
+#australia{
+
+    width: 100%;
+    height: 100vh;
+    padding-top: 106px;
+    background: var(--BGCOLOR);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#australia > h1{
+    margin-bottom: 106px;
+    width: 100%;
+    text-align: center;
+    color: var(--MAINCOLOR);
+    margin-bottom: 32px;
+}
+#australia > p{
+    width: 48%;
+    font-size: 20px;
+    color: var(--greyCOLOR);
+    text-align: center;
+}
+#australia > p > .link{
+    text-decoration: underline;
+}
+#australia > p > .link:hover{
+    color: var(--MAINCOLOR);
+    font-size: 20px;
+    cursor: pointer;
+}
+.uni__container{
+    margin-top: 2rem;
+    width: 83%;
+    height: 172px;
+    background-color: #fdfdfd;
+    border-radius: 48px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 11px 0px rgba(54, 54, 54, 0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.australia__box{
+    margin-top: 2rem;
+    display: flex;
+    width: 84%;
+    justify-content: space-between;
+
+}
+#australia>h2{
+    margin-top: 32px;
+    width: 100%;
+    color: var(--MAINCOLOR);
+    font-size: 24px;
+    text-align: center;
+}
+.button{
+    margin-top: 32px;
+    border-radius: 57px;
+    border: 2px solid #F0F0F0;
+    background: #F7F7F7;
+    box-shadow: 0px 0px 5px 0px rgba(65, 29, 3, 0.25);
+    display: flex;
+    width: 294px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    color: var(--greyCOLOR);
+    font-style: bold;
+}
+
+.button:hover{
+    border-radius: 57px;
+    border: 2px solid #F0F0F0;
+    background: #F7F7F7;
+    box-shadow: 0px 0px 5px 0px var(--MAINCOLOR);
+    display: flex;
+    width: 294px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    color: var(--greyCOLOR);
+    font-style: bold;
+}
+.australia__pathways__box{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+}
+.australia__pathways__box > h1{
+    width: 100%;
+    height: 37px;
+    text-align: center;
+}
+.australia__pathways__box__img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 172px;
+    border-radius: 48px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 11px 0px rgba(54, 54, 54, 0.15);
+    
+}
+.australia__pathways__box__img > img{
+    width: 44.8%;
+    
+}
+.australia__pathways__box__img > .list{
+    width: 54%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
