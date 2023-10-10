@@ -51,13 +51,27 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-
+    color: var(--greyCOLOR);
 }
 .member__card > img{
     width: 192px;
     height: 192px;
     border: 5px solid var(--whiteCOLOR);
     border-radius: 200px;
+}
+.member__card > h3{
+    margin: 16px 0;
+    text-align: center;
+}
+.member__card > p{
+    width: min 87px; ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+}
+.member__card >p> span{
+    margin: 8px 0;
 }
 .top__four{
     width: 75%;

@@ -92,6 +92,7 @@
     background: #F7F7F7;
     box-shadow: 0px 0px 5px 0px rgba(65, 29, 3, 0.25);    
     transition: 300ms;
+    color: var(--greyCOLOR);
 }
 .about__box__button:hover{
     width: 94%;

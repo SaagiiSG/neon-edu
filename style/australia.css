@@ -23,7 +23,7 @@
 #australia{
 
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     padding-top: 106px;
     background: var(--BGCOLOR);
     display: flex;
@@ -44,12 +44,16 @@
     text-align: center;
 }
 #australia > p > .link{
+    color: var(--greyCOLOR);
     text-decoration: underline;
 }
 #australia > p > .link:hover{
     color: var(--MAINCOLOR);
     font-size: 20px;
     cursor: pointer;
+}
+#australia > p > .link:checked{
+    color: var(--greyCOLOR);
 }
 .uni__container{
     margin-top: 2rem;
@@ -89,7 +93,8 @@
     justify-content: center;
     align-items: center;
     color: var(--greyCOLOR);
-    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .button:hover{

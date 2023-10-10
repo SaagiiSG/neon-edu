@@ -86,7 +86,7 @@ a{
     height: 400px;
 }
 .home__header__inro{
-    padding-top: 64px;
+    padding-top: 20%;
     padding-left: 64px;
     width: 58.125%;
     display: flex;
@@ -106,6 +106,7 @@ a{
     font-stretch: 1px;
 }
 .pragraph{
+    
     width: 80%;
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
@@ -121,3 +122,4 @@ a{
     display: inline-block;
     font-style: italic;
 }
+
