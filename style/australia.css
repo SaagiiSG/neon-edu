@@ -67,8 +67,17 @@
     background: #FDFDFD;
     box-shadow: 0px 4px 11px 0px rgba(54, 54, 54, 0.15);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+.uni__container >img.monash{
+    width: 8.875rem;
+    height: 9rem;
+}
+.uni__container >img{
+    width:8.5rem;
+    height: 8.5rem;
+
 }
 .australia__box{
     margin-top: 2rem;

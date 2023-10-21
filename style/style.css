@@ -140,6 +140,7 @@ label.logo{
   width: 64px;
   height: 64px;
   padding: 0 100px;
+  cursor: pointer;
 }
 label.logo > img{
     margin-top: 4px;
@@ -217,3 +218,26 @@ a:hover{
     left: 0;
   }
 }
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: .8rem;
+    background-color: var(--whiteCOLOR);
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    
+    border-radius: 10px;
+  }
+   
+ 
+  ::-webkit-scrollbar-thumb {
+    background: var(--greyCOLOR); 
+    border-radius: 5px;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--MAINCOLOR); 
+  }
