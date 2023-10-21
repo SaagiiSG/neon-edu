@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400&family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background: EBEAE8;
+}
+
+/* variables */
+:root{
+    /* color */
+    --greyCOLOR: #333;
+    --fontCOLOR: #f0f0f0;
+    --MAINCOLOR: #ff6c00;
+    --whiteCOLOR: #fff;
+    --lightgreyCOLOR: #6D6D6D;
+    --BGCOLOR: #EBEAE8;
+    }
+
+@media screen and (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        background: EBEAE8;
+    }
+
+    /* nav bar */
+    .navbar{
+        display: none;
+    }
+    /* nav bar end */
+    /* mobile home */
+    #home{
+        padding-top: 6.5rem;
+        width: 100vw;
+        height: auto;
+        /* min-height: ; */
+        display:flex;
+        flex-direction:column;
+        align-items:center;    
+        gap: 2em;
+        padding-bottom: 1em;
+    }
+    .logo__big{
+        width: 94%;
+        height: 142px;
+        margin-right: 0;
+        padding-bottom: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .logo__big > img{
+        width: 142px;
+        height: 142px;
+
+    }
+    .home__header__inro{
+        padding-top: 3em;
+        margin-bottom: 0;
+        width: 95%;
+        height: 60%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .home__header__inro > .header{
+        margin: 0;
+        width: 60%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .line{
+        height: 2px;
+        width: 96%;
+        color: var(--greyCOLOR);
+    }
+    .pragraph{
+        text-align: center;
+        min-height: 425px;
+        color: var();
+    }
+    /* mobile ends */
+
+    /* about starts */
+    #about{
+        
+        margin-bottom: 0px;
+        width: 100%;
+        height: auto;
+        padding-top: 7rem ;
+        padding-bottom:  2rem; ;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+    }
+    article{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+    }
+    .learning__environment{
+        width: 100%;
+        height: auto;
+    }
+    .learning__environment__content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+    }
+    .learning__environment__content > .about__class{
+        width: 80%;
+    }
+    /* our team */
+    #our__team{
+        padding-top: 106px;
+        padding-bottom:0 ;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .member__container{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .member__container > .top__four{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .member__container > .bottom__three{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .member__card{
+        width: 80%;
+    }
+
+    /* our team ends */
+    /* course */
+    #course{
+        padding-top: 106px;
+        width: 100%;
+        height: auto;
+    }
+    .course__info__container{
+        width: 86%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .course__info{
+        width: 100%;
+    }
+
+            /* need to add the score switching thing */
+    .uni__container{
+        display: none;
+    }
+    .uni__container > img{
+        display: none;
+    }
+    /*course end ------------------------*/
+    /* australia */
+    #australia{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #autralia > h1{
+        width: 90%;
+    }
+    #australia > p{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        text-align: center;
+    }
+    #australia > p > span{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+        align-items: center;
+    }
+    #australia > p > span > a{
+        color: var(--greyCOLOR);
+        text-decoration: underline;
+    }
+    #australia > p > span > a :hover{
+        color: var(--MAINCOLOR);
+        text-decoration: underline;
+    }
+    .uni__container{
+        display: none;
+    }
+    .uni__link__for__mobile{
+        margin-top: 3.5rem;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .uni__link__for__mobile > a{
+        color: var(--greyCOLOR);
+        font-size: 18px;
+    }
+    .uni__link__for__mobile > a :hover{
+        color: var(--MAINCOLOR);
+        font-size: 18px;
+    }
+    #australia > h2{
+        width: 100%;
+        text-align: center;
+        color: var(--greyCOLOR);
+        font-size: 20px;
+    }
+    .australia__box{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 38px;
+    }
+    .australia__pathways__box{
+        width: 76%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .australia__pathways__box__img{
+        height: 300px;
+        width: 257px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 0;
+    }
+    .australia__pathways__box__img >.list{
+        width: 80%;
+        height: 60%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    /* contact us */
+    #contact__us{
+        padding-top: 106px;
+        padding-bottom: 3em;
+        width: 100%;
+        height:auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    #contact__us > h1{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .container{
+        margin: 0;
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 56px;
+    }
+    .type__email{
+        width: 86%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .type__email > .input{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .type__email > #textarea{
+        width: 100%;
+        height: 110px;
+    }
+    .type__email > .input > input{
+        width: 100%;
+        height: 64px;
+    }
+    .contact__info{
+        width: 86%;
+        height: auto;
+        flex-direction: column-reverse;
+        gap: 32px;
+        margin-top: 0;
+    }
+    .socialmedia__icon{
+        max-width: 204px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+        align-items: center;
+    }
+    .contact__info__icon > p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .contact__info__icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+    /* contact us ends */
+    /* location */
+        #location{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            padding-bottom:64px;
+        }
+        #location > p{
+            width: 90%;
+            text-align: center;
+        }
+        .map{
+            width: 90%;
+            height: 314px;
+        }
+        footer{
+            width: 100%;
+            height: 40vh;
+        }
+        footer > a{
+            cursor: grab;
+        }
+  }

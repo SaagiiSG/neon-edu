@@ -21,7 +21,7 @@
 
 #course{
     width: 100%;
-    height: 125vh;
+    height: 130vh;
     padding-top: 106px;
     background: var(--BGCOLOR);
     display: flex;
@@ -96,24 +96,80 @@
     text-align: center;
 }
 .img__container{
+    margin-top: 32px;
     width: 78%;
     display: flex;
     justify-content: space-between;
     height: 278.78px;
     margin-bottom: 32px ;
 }
-.img{
+.first__img{
     width: 174.24px;
     height: 278.78px;
     border-radius: 27.878px;
+    background-image: url(../photos/7.5-1.png);
+    background-position: baseline; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.second__img{
+    width: 174.24px;
+    height: 278.78px;
+    border-radius: 27.878px;
+    background-position: baseline; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-image: url(../photos/6.5.png);
+}
+.third__img{
+    width: 174.24px;
+    height: 278.78px;
+    border-radius: 27.878px;
+    background-position: baseline; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-image: url(../photos/8.png);
+}
+.forth__img{
+    width: 174.24px;
+    height: 278.78px;
+    border-radius: 27.878px;
+    background-position: baseline; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-image: url(../photos/7.png);
+}
+.fifth__img{
+    width: 174.24px;
+    height: 278.78px;
+    border-radius: 27.878px;
+    background-position: baseline; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-image: url(../photos/7.5.png)
 }
 .hover__orange {
-    margin: 32px 0px;
     width: 100%;
     height: 100%;
     background: transparent;
     border-radius: 27.878px;
     transition: linear 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+}
+.hover__orange > p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    
+}
+.hover__orange > p > span{
+    font-size: 60px;
+    font-weight: 700;
 }
 .hover__orange:hover{
     transition: ease-out 300ms;
@@ -121,4 +177,8 @@
     height: 100%;
     background: rgba(255, 108, 0, 0.7);
     border-radius: 27.878px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--fontCOLOR);
 }

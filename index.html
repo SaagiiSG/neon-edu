@@ -15,11 +15,12 @@
 <link rel="stylesheet" href="./style/contactus.css">
 <link rel="stylesheet" href="./style/australia.css">
 <link rel="stylesheet" href="./style/course.css">
+<link rel="stylesheet" href="./style/mobile.css">
 </head>
     <body>
         <!-- navigation -->
        
-        <nav class="navbar">
+        <!-- <nav class="navbar">
                 <a class="logo" href="#home"><img src="./photos/Picture1 (1).png" alt="Neon edu"></a>
             <div class="navbar__two__button__section"> 
                 <a href="#course" class="">Find a course</a>
@@ -31,12 +32,28 @@
                 <a href="#contact__us">Contact us</a>
                 <a href="#location">Location</a>
             </div>
-        </nav>
+        </nav> -->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo" function=""><img src="./photos/logo.png" alt="neon edu"></label>
+            
+            <ul>
+                <li><a href="#course">Find a course</a></li>
+                <li><a href="#australia">Study in Australia</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#our__team">Our team</a></li>
+                <li><a href="#contact__us">Contact us</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+          </nav>
 
         <!-- home -->
 
         <section id="home">
-            <div class="logo__big"><img src="./photos/Picture1 (1).png" alt="Neon edu"></div>
+            <div class="logo__big"><img src="./photos/logo.png" alt="Neon edu"></div>
 
             <section class="home__header__inro">
 
@@ -81,15 +98,15 @@
                     <h1>LEARNING ENVIRONMENT</h1>
                         <article class="learning__environment__content">                  
                                 <div class="about__class">
-                                <img src="" alt="Office">
+                                <img src="./photos/office.JPG" alt="Office">
                                 <h1>Office</h1>
                             </div>
                             <div class="about__class">
-                                <img src="" alt="Office">
+                                <img src="./photos/class room 1.JPG" alt="Office">
                                 <h1>Classroom 1</h1>
                             </div>
                             <div class="about__class">
-                                <img src="" alt="Office">
+                                <img src="./photos/class room 2.JPG" alt="Office">
                                 <h1>Classroom 2</h1>
                             </div>
                         </article>
@@ -225,29 +242,24 @@
             </div>
             <h1 class="test__score">OUR STUDENTS’ ACHIEVEMENTS</h1>
                 <section class="img__container">
-                    <div class="img">
-                        <div class="hover__orange"></div>
-                        <img src="" alt="">
+                    <div class="first__img">
+                        <div class="hover__orange"><p>Overall <span>7.5</span></p></div>                       
                     </div>
 
-                    <div class="img">
-                        <div class="hover__orange"></div>
-                        <img src="" alt="">
+                    <div class="second__img">
+                        <div class="hover__orange"><p>Overall <span>6.5</span></p></div>                       
                     </div>
 
-                    <div class="img">
-                        <div class="hover__orange"></div>
-                        <img src="" alt="">
+                    <div class="third__img">
+                        <div class="hover__orange"><p>Overall <span>8.0</span></p></div>                       
                     </div>
 
-                    <div class="img">
-                        <div class="hover__orange"></div>
-                        <img src="" alt="">
+                    <div class="forth__img">
+                        <div class="hover__orange"><p>Overall <span>7.0</span></p></div>
                     </div>
-
-                    <div class="img">
-                        <div class="hover__orange"></div>
-                        <img src="" alt="">
+                    <div class="fifth__img">
+                        <div class="hover__orange"><p>Overall <span>7.5</span></p></div>
+                        
                     </div>
                 </section>
                 
@@ -260,7 +272,7 @@
     <section id="australia">
             <h1>STUDY IN AUSTRALIA</h1>
             <p>Australia has world-leading education institutions - all are internationally recognised!
-                It has 43 universities - 6 of them are in the world’s <a  href="https://www.timeshighereducation.com/world-university-rankings/2024/world-ranking#!/length/25/locations/AUS/sort_by/rank/sort_order/asc/cols/stats" class="link">TOP 100!</a>
+                <span>It has 43 universities - 6 of them are in the world’s <a  href="https://www.timeshighereducation.com/world-university-rankings/2024/world-ranking#!/length/25/locations/AUS/sort_by/rank/sort_order/asc/cols/stats" class="link">TOP 100!</a></span>
             </p>
             <div class="uni__container">
                 <img src="" alt="University of melbourne">
@@ -269,6 +281,14 @@
                 <img src="" alt="Australian national university">
                 <img src="" alt="The university of Queensland">
                 <img src="" alt="UNSW">
+            </div>
+            <div class="uni__link__for__mobile">
+                <a href="" class="uni__link">University of melbourne</a>
+                <a href="" class="uni__link">Monash University</a>
+                <a href="" class="uni__link">The university of Sydney</a>
+                <a href="" class="uni__link">Australian national university</a>
+                <a href="" class="uni__link">The university of Queensland</a>
+                <a href="" class="uni__link">UNSW</a>
             </div>
             <h2>THE COMMON PATHWAYS TO STUDY IN AUSTRALIA</h2>
         <section class="australia__box">
@@ -331,41 +351,43 @@
        
         <section id="contact__us">
             <header><h1>CONTACT US</h1></header>
-            <section class="type__email">
-                <div class="input">
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
-                </div>
-                <textarea name="questions" id="textarea" cols="30" rows="10">questions</textarea>
-                <button class="send__button">send</button>
-            </section>
-
-            <section class="contact__info">
-
-                <div class="contact__info__icon">
-                    <i class="fas fa-phone fa-flip-horizontal" style="color: #ff6c00;"></i>
-                    <p>9906-7781, 9906-5562, 8875-5562</p>
-                </div>
-
-                <div class="contact__info__icon">
-                    <i class="fab fa-google" style="color: #ff6c00;"></i>
-                    <p>neon.edu.mn@gmail.com</p>
-                </div>
-
-                <div class="socialmedia__icon">
-
-                    <div class="contact__info__icon">
-                        <i class="fab fa-facebook" style="color: #ff6c00;"></i>
-                        <p>neon edu</p>
+            <div class="container">
+                <section class="type__email">
+                    <div class="input">
+                        <input type="text" placeholder="name" class="input__input">
+                        <input type="email" placeholder="email" class="input__input">
                     </div>
-
+                    <textarea name="questions" id="textarea" cols="30" rows="10">questions</textarea>
+                    <button class="send__button">send</button>
+                </section>
+    
+                <section class="contact__info">
+    
                     <div class="contact__info__icon">
-                        <i class="fab fa-instagram" style="color: #ff6c00;"></i>
-                        <p>neon edu</p>
-                    </div>    
-
-                </div>
-            </section>
+                        <i class="fas fa-phone fa-flip-horizontal" style="color: #ff6c00;"></i>
+                        <p>9906-7781, 9906-5562, 8875-5562</p>
+                    </div>
+    
+                    <div class="contact__info__icon">
+                        <i class="fab fa-google" style="color: #ff6c00;"></i>
+                        <p>neon.edu.mn@gmail.com</p>
+                    </div>
+    
+                    <div class="socialmedia__icon">
+    
+                        <div class="contact__info__icon">
+                            <i class="fab fa-facebook" style="color: #ff6c00;"></i>
+                            <p>neon edu</p>
+                        </div>
+    
+                        <div class="contact__info__icon">
+                            <i class="fab fa-instagram" style="color: #ff6c00;"></i>
+                            <p>neon edu</p>
+                        </div>    
+    
+                    </div>
+                </section>
+            </div>
         </section>
        
         <!-- location -->
@@ -386,7 +408,7 @@
         <!-- footer -->
         <footer>
             <div class="footer__line"></div>
-            <a href="">© 2023 SO|11</a>
+            <a href="https://www.instagram.com/saagii.11.so/">© 2023 Saagii.11.so</a>
         </footer>
    <script src="./script.js"></script>
    <script src="https://kit.fontawesome.com/ce59223707.js" crossorigin="anonymous"></script>

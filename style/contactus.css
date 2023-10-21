@@ -38,6 +38,16 @@
     color: var(--MAINCOLOR);
     
 }
+.container{
+    margin: 0;
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+}
 .type__email{
     width: 52%;
     height: 372px;
