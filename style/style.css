@@ -76,6 +76,10 @@ a{
     display: flex;
     justify-content: space-around ;
     background: #EBEAE8;
+    /* background-image: url(../photos/bgimg-home.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom; */
 }
 .logo__big{
     width: 41.875%;
@@ -85,8 +89,8 @@ a{
     justify-content: center;
 }
 .logo__big > img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 .home__header__inro{
     padding-top: 20%;
@@ -129,7 +133,7 @@ a{
 /* navbar */
 
 nav{
-  background: var(--lightgreyCOLOR);
+  background: var(--greyCOLOR);
   height: 72px;
   width: 100%;
   position: fixed;
@@ -196,8 +200,8 @@ a:hover{
     position: fixed;
     width: 70%;
     height: 100vh;
-    background: var(--lightgreyCOLOR);
-    top: 72px;
+    background: var(--greyCOLOR);
+    top: 70px;
     left: -100%;
     text-align: center;
     transition: all .5s;
@@ -209,6 +213,7 @@ a:hover{
   }
   nav ul li a{
     font-size: 20px;
+    font-weight: 600;
   }
   a:hover{
     background: none;
