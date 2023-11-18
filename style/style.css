@@ -35,7 +35,7 @@
     width: 64px;
     height: 64px;
 }
-a{
+ul > li > a{
     color: var(--fontCOLOR);
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
@@ -192,7 +192,7 @@ a:hover{
     font-size: 16px;
   }
 }
-@media (max-width: 858px){
+@media (max-width: 1300px){
   .checkbtn{
     display: block;
   }

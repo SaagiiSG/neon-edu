@@ -44,7 +44,7 @@
     text-align: center;
 }
 #australia > p > .link{
-    color: var(--greyCOLOR);
+    color: var(--MAINCOLOR);
     text-decoration: underline;
 }
 #australia > p > .link:hover{

@@ -20,7 +20,7 @@
     }
 /* our team */
 #our__team {
-    padding: 106px 0;
+    padding-top: 106px ;
     width: 100%;
     height: 70vw;
     display: flex;
@@ -38,10 +38,13 @@
 }
 .member__container{
     width: 100%;
+    height: 95%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between ;
+    gap: 2rem;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+   
     
 }
 .member__card{
@@ -72,16 +75,4 @@
 }
 .member__card >p> span{
     margin: 8px 0;
-}
-.top__four{
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 16px;
-}
-.bottom__three{
-    margin-top: 19px;
-    width: 75%;
-    display: flex;
-    justify-content: space-evenly;
 }

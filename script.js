@@ -1,6 +1,12 @@
 function home(){
     location.href = '#home';
 }
+function facebook(){
+	location.href = 'https://www.facebook.com/neon.edu.mn';
+}
+function instagram(){
+	location.href = 'https://www.instagram.com/neon.edu.mn/';
+}
 var slider_img = document.querySelector('.slider-img');
 var images = ['../photos/6.5.png', '../photos/7.5-1.png', '../photos/7.5.png', '../photos/7.png', '../photos/8.png'];
 var i = 0;

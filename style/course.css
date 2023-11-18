@@ -32,16 +32,18 @@
     color: var(--MAINCOLOR);
 }
 .course__info__container{
-    width: 78%;
+    width: 100%;
     display: flex;
+    gap: 64px;
+    flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 .course__info{
     margin: 32px 0;
     padding: 16px;
-    width: 31%;
+    width: 348px;
     height: 277px;
     display: flex;
     flex-direction: column;
