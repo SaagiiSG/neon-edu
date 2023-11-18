@@ -1,10 +1,11 @@
 # neon-edu
-Source code include 
-- responsive design for desktop and mobile device
+Source code included
+- responsive design for desktop, mobile device and tablet(medium size) device.
 - ...
   task that needs to be done before hosting
-  - last few photo fixing
-  - email js
+  - emailjs
 this github contains
-- source code
+- Main html ile
+- Main style sheet
+- Main script file
 - website image
