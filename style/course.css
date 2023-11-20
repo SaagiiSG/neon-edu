@@ -206,3 +206,6 @@
 .slider{
     display: none;
 }
+a.button{
+    text-decoration: none;
+}

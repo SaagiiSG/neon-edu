@@ -222,6 +222,7 @@ a:hover{
   #check:checked ~ ul{
     left: 0;
   }
+  
 }
 /* scroll bar */
 
@@ -238,8 +239,8 @@ a:hover{
    
  
   ::-webkit-scrollbar-thumb {
-    background: var(--greyCOLOR); 
-    border-radius: 5px;
+    background: var(--lightgreyCOLOR); 
+    border-radius: 0;
   }
   
  

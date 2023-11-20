@@ -95,6 +95,7 @@
     box-shadow: 0px 0px 5px 0px rgba(65, 29, 3, 0.25);    
     transition: 300ms;
     color: var(--greyCOLOR);
+    text-decoration: none;
 }
 .about__box__button:hover{
     width: 94%;
@@ -108,8 +109,10 @@
     font-weight: 700;
     border: 2px solid var(--MAINCOLOR);
     background: #F7F7F7;
+    color: var(--greyCOLOR);
     box-shadow: 0px 0px 5px 0px rgba(65, 29, 3, 0.25);    
     transition: 300ms;
+    text-decoration: none;  
 }
 /* about --> learning environment */
 .learning__environment{

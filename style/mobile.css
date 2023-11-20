@@ -97,7 +97,7 @@
         
         margin-bottom: 0px;
         width: 100%;
-        height: 400vh;
+        height: auto;
         padding-top: 7rem ;
         padding-bottom:  2rem; ;
         display: flex;
@@ -232,8 +232,8 @@
     .button__container__imgslider > button{
         padding: 8px 4px;
         width: 72px;
-        font-size: 24px;
-        border:1px solid var(--MAINCOLOR);
+        font-size: 2.5rem;
+        border:none;
         border-radius: 16px;
         color: var(--greyCOLOR);
         transition: .2s;
@@ -241,17 +241,20 @@
     .button__container__imgslider > button :hover{
         padding: 8px 4px;
         width: 72px;
-        font-size: 24px;
-        border:1.2px solid var(--MAINCOLOR);
+        font-size: 2.5rem;
+        border:none;
         border-radius: 16px;
         transition: .2s;
-        color: var(--greyCOLOR);
+        color: var(--MAINCOLOR);
     }
     .uni__container{
         display: none;
     }
     .uni__container > img{
         display: none;
+    }
+    a.button{
+        text-decoration: none;
     }
     /*course end ------------------------*/
     /* australia */
