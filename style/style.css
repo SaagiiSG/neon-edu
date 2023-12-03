@@ -93,7 +93,7 @@ ul > li > a{
     height: 300px;
 }
 .home__header__inro{
-    padding-top: 20%;
+    padding-top: 10%;
     padding-left: 64px;
     width: 58.125%;
     display: flex;
@@ -137,6 +137,7 @@ nav{
   height: 72px;
   width: 100%;
   position: fixed;
+  z-index: 100;
 }
 label.logo{
   margin-top: 4px;
