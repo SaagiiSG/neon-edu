@@ -27,3 +27,26 @@ function setImg(){
 	return slider_img.setAttribute('src', "images/"+images[i]);
 	
 }
+
+function sendMail() {
+	var params = {
+	  name: document.getElementById("name").value,
+	  email: document.getElementById("email").value,
+	  message: document.getElementById("textarea").value,
+	};
+  
+	const serviceID = "service_4pqhkg8";
+	const templateID = "template_2bm8u66";
+  
+	  emailjs.send(serviceID, templateID, params)
+	  .then(res=>{
+		  document.getElementById("name").value = "";
+		  document.getElementById("email").value = "";
+		  document.getElementById("message").value = "";
+		  console.log(res);
+		  alert("Your message sent successfully!!")
+  
+	  })
+	  .catch(err=>console.log(err));
+  
+  }

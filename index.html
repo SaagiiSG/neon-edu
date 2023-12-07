@@ -283,10 +283,10 @@
             </p>
             <div class="uni__container">
                 <img src="https://cdn.freebiesupply.com/logos/large/2x/the-university-of-melbourne-logo-png-transparent.png" alt="University of melbourne">
-                <img class="monash" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonpotoFy5R_GYd4ez6xCuozaxgyRCY-qIwg&usqp=CAU" alt="Monash University" >
+                <img class="monash" src="https://seekvectorlogo.com/wp-content/uploads/2018/01/monash-university-vector-logo-small.png" alt="Monash University" >
                 <img src="https://github.com/SaagiiSG/neon-edu/blob/main/photos/sydney.png?raw=true" alt="The university of Sydney">
                 <img src="https://github.com/SaagiiSG/neon-edu/blob/main/photos/logo_The_Australian_National_University_2020_08_11_15_13_46_8a2137c3a4.png?raw=true" alt="Australian national university">
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/76/University_of_Queensland_%28crest%29.svg/800px-University_of_Queensland_%28crest%29.svg.png" alt="The university of Queensland">
+                <img src="https://seeklogo.com/images/U/university-of-queensland-logo-DA3D407ABB-seeklogo.com.png" alt="The university of Queensland" class="uni-of-queensland">
                 <img src="https://github.com/SaagiiSG/neon-edu/blob/main/photos/UNSW.png?raw=true" alt="UNSW">
             </div>
             <div class="uni__link__for__mobile">
@@ -361,11 +361,11 @@
             <div class="container">
                 <section class="type__email">
                     <div class="input">
-                        <input type="text" placeholder="name" class="input__input">
-                        <input type="email" placeholder="email" class="input__input">
+                        <input type="text" placeholder="name" class="input__input" id="name">
+                        <input type="email" placeholder="email" class="input__input" id="email">
                     </div>
-                    <textarea name="questions" id="textarea" cols="30" rows="10">questions</textarea>
-                    <button class="send__button">send</button>
+                    <textarea name="questions" id="textarea" cols="30" rows="10" placeholder="questions"></textarea>
+                    <button class="send__button" onclick="sendMail()">send</button>
                 </section>
                 <section class="contact__info">    
                     <div class="contact__info__icon" onclick="phone()">
@@ -416,6 +416,15 @@
             <a href="https://www.instagram.com/saagii.11.so/">© 2023 Saagii.11.so</a>
         </footer>
    <script src="./script.js"></script>
+   <script
+   type="text/javascript"
+   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+ ></script>
+ <script type="text/javascript">
+   (function () {
+     emailjs.init("oIzav3nEHzXvE0_mo");
+   })();
+ </script>
    <script src="https://kit.fontawesome.com/ce59223707.js" crossorigin="anonymous"></script>
     </body>
 </html>
