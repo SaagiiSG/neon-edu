@@ -176,22 +176,7 @@
     .course__info{
         width: 100%;
     }
-    .text__container{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-       
-    }
-    .text__container > .text__english__level{
-        color: var(--greyCOLOR);
-        font-style: bold;
-        text-align: start;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        margin-left: 1rem;
-    }
+    
             /* need to add the score switching thing */
     .img__container{
         display: none;
