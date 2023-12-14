@@ -8,7 +8,7 @@ function instagram(){
 	location.href = 'https://www.instagram.com/neon.edu.mn/';
 }
 var slider_img = document.querySelector('.slider-img');
-var images = ['../photos/6.5.png', '../photos/7.5-1.png', '../photos/7.5.png', '../photos/7.png', '../photos/8.png'];
+var images = ['https://github.com/SaagiiSG/neon-edu/blob/main/photos/6.5.png?raw=true', 'https://github.com/SaagiiSG/neon-edu/blob/main/photos/7.5-1.png?raw=true', 'https://github.com/SaagiiSG/neon-edu/blob/main/photos/7.5.png?raw=true', 'https://github.com/SaagiiSG/neon-edu/blob/main/photos/7.png?raw=true', 'https://github.com/SaagiiSG/neon-edu/blob/main/photos/8.png?raw=true'];
 var i = 0;
 
 function prev(){
