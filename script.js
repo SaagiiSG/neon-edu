@@ -8,23 +8,26 @@ function instagram(){
 	location.href = 'https://www.instagram.com/neon.edu.mn/';
 }
 var slider_img = document.querySelector('.slider-img');
-var images = ['./score-photos/7.5-1.png', './score-photos/7.5-1.png', './score-photos/7.5-1.png', './score-photos/7.5-1.png', './score-photos/7.5-1.png'];
+// var images = ['https://github.com/SaagiiSG/neon-edu/blob/main/score-photos/7.5-1.png?raw=true', 'https://github.com/SaagiiSG/neon-edu/blob/main/score-photos/6.5.png?raw=true','https://github.com/SaagiiSG/neon-edu/blob/main/score-photos/7.5.png?raw=true', 'https://github.com/SaagiiSG/neon-edu/blob/main/score-photos/7.png?raw=true', 'https://github.com/SaagiiSG/neon-edu/blob/main/score-photos/8.png?raw=true'];
+var image = ['7.5-1.png' , '6.5.png', '7.5.png','7.png', '8.png']
 var i = 0;
 
 function prev(){
-	if(i <= 0) i = images.length;	
+	if(i <= 0) i = image.length;	
 	i--;
-	return setImg();			 
+	return setImg();
+			 
 }
 
 function next(){
-	if(i >= images.length-1) i = -1;
+	if(i >= image.length-1) i = -1;
 	i++;
-	return setImg();			 
-}
+	return setImg();		
+}	 
+
 
 function setImg(){
-	return slider_img.setAttribute('src', "images/"+images[i]);
+	return slider_img.setAttribute('src', "images/"+image	[i]);
 	
 }
 
