@@ -53,3 +53,8 @@ function sendMail() {
 	  .catch(err=>console.log(err));
 	  
   }
+const year = document.getElementById("year")
+let dateEl = new Date()
+let yearEl = dateEl.getFullYear()
+// dateEl= Math.floor(dateEl/)
+year.innerHTML = yearEl
