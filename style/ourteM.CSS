@@ -57,8 +57,8 @@
     color: var(--greyCOLOR);
 }
 .member__card > img{
-    width: 192px;
-    height: 192px;
+   min-width: 192px;
+    min-height: 192px;
     border: 5px solid var(--whiteCOLOR);
     border-radius: 200px;
 }
